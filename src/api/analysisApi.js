@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // IMPORTANT: Update this to your deployed backend URL
-const API_BASE_URL = 'http://localhost:8000/api/v1/data';
+const API_BASE_URL = 'https://data-insights-generator-backend.onrender.com/api/v1/data';
 
 /**
  * Uploads a dataset file to the backend for analysis.
