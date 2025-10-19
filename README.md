@@ -20,8 +20,8 @@ Before running the project, ensure you have the following installed:
 Clone the project to your local machine:
 
 ```bash
-git clone <repository_url>
-cd <project_directory>
+git clone <https://github.com/kkv-dinesh/Data_Insights_generator_frontend>
+cd <https://github.com/kkv-dinesh/Data_Insights_generator_frontend>
 ```
 
 ### 2. Frontend Setup
