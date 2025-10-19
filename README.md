@@ -1,4 +1,5 @@
-🤖 Data Insights generator
+**🤖 Data Insights generator**
+
 The client is a single-page application built with React/Vite that interacts with the FastAPI backend to provide an interactive user experience.
 
 1. Prerequisites
