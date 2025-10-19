@@ -1,31 +1,74 @@
-**🤖 Data Insights generator**
+# 🤖 Data Insights Generator
 
-The client is a single-page application built with React/Vite that interacts with the FastAPI backend to provide an interactive user experience.
+A single-page application built with **React** and **Vite** that interacts with a **FastAPI** backend to provide an interactive data insights experience.
 
-1. Prerequisites
-Node.js
+---
 
-npm or yarn
+## 📋 Prerequisites
 
-2. Setup
-Navigate into the frontend directory from the project root:
+Before running the project, ensure you have the following installed:
 
-Bash
+* [Node.js](https://nodejs.org/) (LTS version recommended)
+* [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
+---
+
+## 🚀 Setup
+
+### 1. Clone the Repository
+
+Clone the project to your local machine:
+
+```bash
+git clone <repository_url>
+cd <project_directory>
+```
+
+### 2. Frontend Setup
+
+Navigate to the `frontend` directory:
+
+```bash
 cd frontend
-Install all required Node/React dependencies:
+```
 
-Bash
+Install the required Node.js dependencies:
 
+```bash
 npm install
-# or yarn install
-Configure API URL: The client is currently configured to talk to the local backend at http://localhost:8000/api/v1/data. If you want u can change in the backend and the frontend.
+# or
+yarn install
+```
 
-3. Running the Application
-To start the local development server:
+### 3. Configure API URL
 
-Bash
+The client is currently set to interact with the backend at `http://localhost:8000/api/v1/data`. If you want to change this:
 
+* Update the backend to run at a different URL.
+* Modify the frontend to point to the new API endpoint.
+
+---
+
+## 🏃‍♂️ Running the Application
+
+To start the local development server, run:
+
+```bash
 npm start
+```
 
-The application will typically be served at http://localhost:3000 
+or if you're using Yarn:
+
+```bash
+yarn start
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000) by default.
+
+---
+
+## 🔧 Backend Configuration
+
+Ensure that your backend (FastAPI) is running at the specified API endpoint, or adjust the URL as needed in the frontend configuration.
+
+---
